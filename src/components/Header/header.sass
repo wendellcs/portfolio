@@ -10,10 +10,6 @@
     &-icons
         display: flex
         gap: 20px
-        left: 50%
-        bottom: 50%
-        position: absolute
-        transform: translateX(-50%) translateY(50%)
 
     &-nav
         margin-left: auto
@@ -25,3 +21,9 @@
             display: flex
             gap: 20px
             font-size: 18px
+
+            a
+                transition: .3s
+
+                &:hover
+                    color: variables.$secondary-color

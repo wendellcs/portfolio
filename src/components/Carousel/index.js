@@ -89,8 +89,8 @@ export default function Carousel({ updateState }) {
                     </div>
                 })}
 
-                <button id='prev' onClick={() => { handlePrev() }}><IoArrowBackCircle /></button>
-                <button id='next' onClick={() => { handleNext() }}><IoArrowForwardCircle /></button>
+                <button id='prev' className='icon carousel' onClick={() => { handlePrev() }}><IoArrowBackCircle /></button>
+                <button id='next' className='icon carousel' onClick={() => { handleNext() }}><IoArrowForwardCircle /></button>
             </div>
         </div>
     );
