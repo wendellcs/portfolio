@@ -1,0 +1,29 @@
+@use '../../assets/sass/_variables'
+@use '../../assets/sass/_utilities'
+
+#profile
+    @include utilities.center-elements
+    flex-direction: column
+    margin-top: 100px
+
+    .profile-image-box
+        width: 250px
+        height: 170px
+        background-color: variables.$fields-bg-color
+        border-radius: 30px
+        border: 2px solid variables.$secondary-color
+        margin-bottom: 35px
+
+    .profile-text
+        width: 400px
+        text-align: center
+
+        p
+            font-size: 2.2rem
+            line-height: 150%
+
+    .profile-icons
+        display: flex
+        justify-content: space-around
+        margin-top: 25px
+        gap: 30px

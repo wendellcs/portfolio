@@ -1,0 +1,37 @@
+@use '../../assets/sass/_variables'
+@use '../../assets/sass/_utilities'
+
+.container-highlight
+    width: 100%
+    max-width: 580px
+    height: 200px
+    background-color: variables.$displayed-project-bg-color
+    margin: 0 auto 40px auto
+    display: flex
+    border-radius: 10px
+    box-shadow: 0 0 15px variables.$primary-color
+    border: 1px solid variables.$secondary-color
+
+    img
+        border-radius: 10px 0 0 10px
+        border-right: 1px solid variables.$secondary-color
+
+    .text-content
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin: 20px auto
+
+        &-title
+            color: variables.$secondary-color
+            font-size: 1.8rem
+
+        &-techs
+            margin: 30px 10px
+
+            @include utilities.center-elements
+            gap: 10px
+            flex-wrap: wrap
+
+            .icon
+                font-size: 3.6rem

@@ -1,0 +1,27 @@
+@use '../../assets/sass/_variables'
+
+.container-header
+    background-color: variables.$navbar-bg-color
+    display: flex
+    padding: 6px 100px
+    border-bottom: 2px solid variables.$primary-color
+    position: relative
+
+    &-icons
+        display: flex
+        gap: 20px
+        left: 50%
+        bottom: 50%
+        position: absolute
+        transform: translateX(-50%) translateY(50%)
+
+    &-nav
+        margin-left: auto
+        align-items: center
+        display: flex
+        height: 35px
+
+        ul
+            display: flex
+            gap: 20px
+            font-size: 18px

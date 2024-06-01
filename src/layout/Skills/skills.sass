@@ -1,0 +1,39 @@
+@use '../../assets/sass/_variables'
+@use '../../assets/sass/utilities'
+
+#skills
+    text-align: center
+
+    .skills-title, .skills-box-title
+        color: variables.$secondary-color
+
+    .skills-title
+        margin-bottom: 45px
+        font-size: 2.4rem
+
+    .skills-box-title
+        font-size: 2rem
+        margin-bottom: 20px
+
+    .skills-container
+        display: flex
+        justify-content: center
+        gap: 80px
+
+        &-frontEnd
+            &-techs
+                @include utilities.center-elements
+                gap: 10px
+                max-width: 120px
+                flex-wrap: wrap
+        &-languages
+            &-language
+                font-size: 1.8rem
+
+                p:first-of-type
+                    margin-bottom: 10px
+
+        &-tools
+            &-tool
+                @include utilities.center-elements
+                gap: 10px

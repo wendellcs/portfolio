@@ -1,0 +1,17 @@
+@use './_variables'
+
+@mixin center-elements
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin form-elements-style
+    background-color: variables.$fields-bg-color
+    border: 1px solid variables.$secondary-color
+    border-radius: 10px
+    font-size: 1.4rem
+    letter-spacing: 1px
+    color: variables.$font-color
+
+    &::placeholder
+        color: variables.$font-color
