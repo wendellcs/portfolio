@@ -26,7 +26,7 @@ export default function Highlight({ sharedState }) {
 
                     <div className='text-content-techs'>
                         {projectInfo.techs.map((Tech, i) => {
-                            return <Tech className='icon' key={i} />
+                            return <Tech className='icon static' key={i} />
                         })}
                     </div>
 

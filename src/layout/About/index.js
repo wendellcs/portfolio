@@ -27,8 +27,8 @@ export default function About() {
                 <p className='about-cta-text'>Clique aqui para ver meu CV</p>
 
 
-                <a className='btn' download='CV-WendellCSilva.pdf' href={cv} type='application/pdf'>
-                    <TiDocumentText className='icon' />
+                <a className='btn cta' download='CV-WendellCSilva.pdf' href={cv} type='application/pdf'>
+                    <TiDocumentText className='icon static' />
                 </a>
 
             </div>

@@ -9,3 +9,14 @@
     &:hover
         transform: scale(1.1)
         color: variables.$secondary-color
+
+    &.static
+        cursor: default
+        &:hover
+            transform: none
+            color: variables.$primary-color
+
+    @each $tech, $color in variables.$tech-icons-style
+        &.#{$tech}
+            &:hover
+                color: $color

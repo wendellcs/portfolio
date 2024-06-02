@@ -30,7 +30,7 @@ export default function Projects() {
                 <p>Eu tenho vários outros projetos legais.</p>
                 <p>Dê uma olhada neles</p>
 
-                <button className='btn'><IoLogoGithub className='icon' /></button>
+                <a className='btn cta' rel='noreferrer noopener' target='_blank' href='https://github.com/wendellcs' ><IoLogoGithub className='icon static' /></a>
             </div>
         </section >
     )

@@ -15,11 +15,11 @@ export default function Skills() {
                     </h3>
 
                     <div className='skills-container-frontEnd-techs'>
-                        <FaHtml5 className='icon' />
-                        <FaCss3Alt className='icon' />
-                        <IoLogoJavascript className='icon' />
-                        <FaReact className='icon' />
-                        <FaSass className='icon' />
+                        <FaHtml5 className='icon html' />
+                        <FaCss3Alt className='icon css' />
+                        <IoLogoJavascript className='icon javascript' />
+                        <FaReact className='icon react' />
+                        <FaSass className='icon sass' />
                     </div>
                 </div>
 
@@ -40,9 +40,9 @@ export default function Skills() {
                     </h3>
 
                     <div className='skills-container-tools-tool'>
-                        <RiGithubFill className='icon' />
-                        <FaGitAlt className='icon' />
-                        <FaFigma className='icon' />
+                        <RiGithubFill className='icon github' />
+                        <FaGitAlt className='icon git' />
+                        <FaFigma className='icon figma' />
                     </div>
                 </div>
             </div>

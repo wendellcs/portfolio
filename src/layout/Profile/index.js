@@ -1,6 +1,7 @@
 import { RiGithubFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
 import { TiDocumentText } from "react-icons/ti";
+import cv from '../../assets/doc/CV_WendellCSilva.pdf'
 
 import './profile.sass'
 export default function Profile() {
@@ -12,9 +13,15 @@ export default function Profile() {
             </div>
 
             <div className="profile-icons">
-                <RiGithubFill className='icon' />
-                <FaLinkedin className='icon' />
-                <TiDocumentText className='icon' />
+                <a href='https://www.linkedin.com/in/wendellcsilva/' rel='noreferrer noopener' target='_blank'>
+                    <FaLinkedin className='icon' />
+                </a>
+                <a href='https://github.com/wendellcs' rel='noreferrer noopener' target='_blank'>
+                    <RiGithubFill className='icon' />
+                </a>
+                <a download='CV-WendellCSilva.pdf' href={cv} type='application/pdf'>
+                    <TiDocumentText className='icon' />
+                </a>
             </div>
         </section>
     )
