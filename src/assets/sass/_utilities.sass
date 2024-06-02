@@ -15,3 +15,28 @@
 
     &::placeholder
         color: variables.$font-color
+
+@mixin animation($name, $duration,$timing-function , $iteration-count)
+    animation: $name $duration $timing-function $iteration-count
+
+@keyframes pulse-animation
+    0%
+        box-shadow: 0 0 10px variables.$primary-color
+
+    25%
+        box-shadow: 0 0 15px variables.$primary-color
+
+    40%
+        box-shadow: 0 0 30px variables.$primary-color
+
+    50%
+        box-shadow: 0 0 40px variables.$primary-color
+
+    60%
+        box-shadow: 0 0 30px variables.$primary-color
+
+    75%
+        box-shadow: 0 0 15px variables.$primary-color
+
+    100%
+        box-shadow: 0 0 10px variables.$primary-color

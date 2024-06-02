@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 import { projectsData } from './data'
 
@@ -6,19 +6,28 @@ import './highlight.sass'
 
 export default function Highlight({ sharedState }) {
     const [projectInfo, setProjectInfo] = useState(null)
+    const [animated, setAnimated] = useState(true)
+
+    const containerRef = useRef(null)
 
     useEffect(() => {
         if (sharedState && projectsData[sharedState.id]) {
             setProjectInfo(projectsData[sharedState.id])
         }
-
     }, [sharedState]);
 
-    // Criar um loading state para as imagens
+    useEffect(() => {
+        setAnimated(true)
+
+        setTimeout(() => {
+            setAnimated(false)
+        }, 500)
+
+    }, [projectInfo])
 
     return (
         <>
-            {projectInfo && <div className='container-highlight'>
+            {projectInfo && <div className={animated ? 'container-highlight animated' : 'container-highlight'} ref={containerRef}>
                 <img src={projectInfo.image} alt='project' />
 
                 <div className='text-content'>
