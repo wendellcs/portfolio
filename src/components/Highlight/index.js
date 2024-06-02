@@ -1,10 +1,9 @@
 import { useEffect, useState, useRef } from "react";
 
 import { projectsData } from './data'
-
 import './highlight.sass'
 
-export default function Highlight({ sharedState }) {
+export default function Highlight({ sharedState, handleModal }) {
     const [projectInfo, setProjectInfo] = useState(null)
     const [animated, setAnimated] = useState(true)
 
@@ -39,7 +38,7 @@ export default function Highlight({ sharedState }) {
                         })}
                     </div>
 
-                    <button className='btn more-details'>Mais detalhes</button>
+                    <button className='btn more-details' onClick={() => { handleModal() }}>Mais detalhes</button>
                 </div>
             </div>}
 
