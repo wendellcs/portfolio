@@ -12,6 +12,8 @@
     transition: .5s
 
     .modal-content
+        text-align: center
+        position: relative
         transition: 1s
         padding: 40px 20px
         width: 410px
@@ -24,6 +26,26 @@
 
         transform: perspective(80px)
         @include utilities.animation(button-shadow-throb , 1.75s ,linear , infinite, both )
+
+        .modal-title
+            color: variables.$secondary-color
+
+        .close
+            position: absolute
+            right: 20px
+            top: 20px
+
+        .modal-box
+            font-family: 'Imprima', sans-serif
+            font-weight: 400
+            font-size: 1.6rem
+
+            display: flex
+            flex-direction: column
+            gap: 25px
+
+            &:first-of-type
+                margin-top: 50px
 
     &.hidden
         opacity: 0

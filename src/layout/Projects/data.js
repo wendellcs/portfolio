@@ -15,41 +15,41 @@ export const projectsData = [{
     name: 'Blogr Landing Page',
     image: blogrProjectImage,
     liveSiteUrl: '',
-    gitHubUrl: '',
+    gitHubUrl: 'https://github.com/wendellcs/blog-landing-page',
     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'Filmaria',
     image: filmariaImage,
     liveSiteUrl: '',
-    gitHubUrl: '',
+    gitHubUrl: 'https://github.com/wendellcs/filmaria',
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'Hangman',
     image: hangmanImage,
     liveSiteUrl: '',
-    gitHubUrl: '',
+    gitHubUrl: 'https://github.com/wendellcs/hangman',
     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript, FaSass]
 },
 {
     name: 'Intro Section',
     image: introSectionImage,
     liveSiteUrl: '',
-    gitHubUrl: '',
+    gitHubUrl: 'https://github.com/wendellcs/Projects/tree/main/intro-section-with-dropdown-navigation',
     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'Sistema de chamados',
     image: sistemaChamadosImage,
     liveSiteUrl: '',
-    gitHubUrl: '',
+    gitHubUrl: 'https://github.com/wendellcs/sistema-de-chamados',
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'To Do List',
     image: toDoListImage,
     liveSiteUrl: '',
-    gitHubUrl: '',
+    gitHubUrl: 'https://github.com/wendellcs/todo-list',
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
 }]
