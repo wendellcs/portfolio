@@ -14,36 +14,42 @@ import toDoListImage from '../../assets/images/toDoList-big.png'
 export const projectsData = [{
     name: 'Blogr Landing Page',
     image: blogrProjectImage,
-    description: '',
+    liveSiteUrl: '',
+    gitHubUrl: '',
     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'Filmaria',
     image: filmariaImage,
-    description: '',
+    liveSiteUrl: '',
+    gitHubUrl: '',
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'Hangman',
     image: hangmanImage,
-    description: '',
+    liveSiteUrl: '',
+    gitHubUrl: '',
     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript, FaSass]
 },
 {
     name: 'Intro Section',
     image: introSectionImage,
-    description: '',
+    liveSiteUrl: '',
+    gitHubUrl: '',
     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'Sistema de chamados',
     image: sistemaChamadosImage,
-    description: '',
+    liveSiteUrl: '',
+    gitHubUrl: '',
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'To Do List',
     image: toDoListImage,
-    description: '',
+    liveSiteUrl: '',
+    gitHubUrl: '',
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
 }]
