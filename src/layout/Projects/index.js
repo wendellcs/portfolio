@@ -51,21 +51,23 @@ export default function Projects() {
                 <a className='btn cta' rel='noreferrer noopener' target='_blank' href='https://github.com/wendellcs' ><IoLogoGithub className='icon static' /></a>
             </div>
 
-            {<div className={openedModal ? 'container-modal' : 'container-modal hidden'}>
-                <div className='modal-content'>
-                    <IoIosCloseCircle className='icon close' onClick={() => { handleModal() }} />
 
-                    <h2 className='modal-title'>{projectInfo.name}</h2>
+            {projectInfo &&
+                <div className={openedModal ? 'container-modal' : 'container-modal hidden'}>
+                    <div className='modal-content'>
+                        <IoIosCloseCircle className='icon close' onClick={() => { handleModal() }} />
 
-                    <div className='modal-box'>
-                        <p>Para ir ao Live Site clique aqui</p>
-                        <a className='btn cta-modal' rel='noreferrer noopener' target='_blank' href={projectInfo.liveSiteUrl} > <CgWebsite className='icon static' /></a>
+                        <h2 className='modal-title'>{projectInfo.name}</h2>
 
-                        <p>Caso queira ver o repositório do projeto <br /> clique aqui :D</p>
-                        <a className='btn cta-modal' rel='noreferrer noopener' target='_blank' href={projectInfo.gitHubUrl} ><IoLogoGithub className='icon static' /></a>
+                        <div className='modal-box'>
+                            <p>Para ir ao Live Site clique aqui</p>
+                            <a className='btn cta-modal' rel='noreferrer noopener' target='_blank' href={projectInfo.liveSiteUrl} > <CgWebsite className='icon static' /></a>
+
+                            <p>Caso queira ver o repositório do projeto <br /> clique aqui :D</p>
+                            <a className='btn cta-modal' rel='noreferrer noopener' target='_blank' href={projectInfo.gitHubUrl} ><IoLogoGithub className='icon static' /></a>
+                        </div>
                     </div>
-                </div>
-            </div>}
+                </div>}
         </section >
     )
 }
