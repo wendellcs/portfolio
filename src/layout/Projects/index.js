@@ -51,7 +51,6 @@ export default function Projects() {
                 <a className='btn cta' rel='noreferrer noopener' target='_blank' href='https://github.com/wendellcs' ><IoLogoGithub className='icon static' /></a>
             </div>
 
-
             {projectInfo &&
                 <div className={openedModal ? 'container-modal' : 'container-modal hidden'}>
                     <div className='modal-content'>
