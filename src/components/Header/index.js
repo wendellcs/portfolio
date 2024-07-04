@@ -1,8 +1,11 @@
 import { RiGithubFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 import './header.sass'
 export default function Header() {
+
+
     return (
         <header className="container-header">
             <div className="container-header-icons">
@@ -13,14 +16,20 @@ export default function Header() {
                     <RiGithubFill className='icon' />
                 </a>
             </div>
+
             <nav className="container-header-nav">
-                <ul>
+
+                <ul className='links'>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projetos</a></li>
                     <li><a href="#contact">Contato</a></li>
                 </ul>
+
+                <GiHamburgerMenu className='icon menu-icon' />
+
             </nav>
+
         </header>
     )
 }

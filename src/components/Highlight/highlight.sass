@@ -13,6 +13,19 @@
     animation: none
     box-shadow: 0 0 10px variables.$primary-color
 
+    @include utilities.tablet
+        flex-direction: column
+        height: auto
+        padding: 20px 0
+        width: 70%
+
+        img
+            width: 80%
+            min-width: 180px
+            margin: 0 auto
+            border-radius: 10px !important
+            border: 2px solid variables.$secondary-color
+
     &.animated
         @include utilities.animation(pulse-animation , .5s ,ease-out, 1 )
 

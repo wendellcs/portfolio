@@ -20,6 +20,13 @@
         justify-content: center
         gap: 80px
 
+        @include utilities.tablet
+            flex-direction: column
+            gap: 40px
+
+            .skills-container-frontEnd-techs
+                margin: 0 auto
+
         &-frontEnd
             &-techs
                 @include utilities.center-elements

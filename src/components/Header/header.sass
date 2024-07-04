@@ -1,4 +1,5 @@
 @use '../../assets/sass/_variables'
+@use '../../assets/sass/utilities'
 
 .container-header
     background-color: variables.$navbar-bg-color
@@ -6,6 +7,18 @@
     padding: 6px 100px
     border-bottom: 2px solid variables.$primary-color
     position: relative
+
+    .menu-icon
+        display: none
+
+    @include utilities.tablet
+        padding: 6px 50px
+
+        .links
+            display: none
+
+        .menu-icon
+            display: block
 
     &-icons
         display: flex
