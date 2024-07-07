@@ -1,8 +1,12 @@
+@use '../../assets/sass/utilities'
 @use '../../assets/sass/_variables'
 @use '../../assets/sass/_buttons'
 
 #about
     text-align: center
+
+    @include utilities.mobile
+        padding: 0 10px
 
     .about-title
         font-size: 2.8rem

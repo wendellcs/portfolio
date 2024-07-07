@@ -1,13 +1,19 @@
 import { RiGithubFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 import './header.sass'
+import { useState } from "react";
 export default function Header() {
+    const [openedMenu, setOpenedMenu] = useState(false)
+
+    function handleOpenMenu() {
+        setOpenedMenu(!openedMenu)
+    }
 
 
     return (
-        <header className="container-header">
+
+        <header className={openedMenu ? 'container-header active' : 'container-header'}>
             <div className="container-header-icons">
                 <a href='https://www.linkedin.com/in/wendellcsilva/' rel='noreferrer noopener' target='_blank'>
                     <FaLinkedin className='icon' />
@@ -17,8 +23,7 @@ export default function Header() {
                 </a>
             </div>
 
-            <nav className="container-header-nav">
-
+            <nav className={openedMenu ? 'container-header-nav active' : 'container-header-nav '}>
                 <ul className='links'>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -26,10 +31,12 @@ export default function Header() {
                     <li><a href="#contact">Contato</a></li>
                 </ul>
 
-                <GiHamburgerMenu className='icon menu-icon' />
 
+                <div className='menu-button' onClick={() => { handleOpenMenu() }}>
+                    <div className='menu-icon'></div>
+                </div>
             </nav>
-
         </header>
+
     )
 }
