@@ -1,0 +1,26 @@
+@use '../../assets/sass/_variables'
+@use '../../assets/sass/_utilities'
+
+.container-popup
+    background-color: variables.$container-bg-color 
+    z-index: 99
+    position: absolute
+    width: 50%
+    height: 150px
+    left: 50%
+    margin-left: -25%
+    border-radius: 16px
+    border: 1px solid variables.$primary-color
+    display: flex
+    align-items: center
+    flex-direction: column
+    padding: 10px 0
+
+    &.hidden 
+        display: none
+
+    p 
+        font-weight: 400
+        font-size: 1.4rem
+        margin: 20px 0 15px 0
+
