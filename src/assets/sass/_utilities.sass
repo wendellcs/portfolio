@@ -73,3 +73,18 @@
 
     100%
         box-shadow: 0px 0px 15px 15px #007cff00,0px 0px 15px 15px #007cff00,0px 0px 15px 15px #007cff00
+
+@keyframes popup-animation 
+    0%
+        opacity: 0
+        transform: translateY(-150%)
+        box-shadow: 0 0 5px variables.$secondary-color
+    50%
+        opacity: 1
+        transform: translateY(15px)
+        box-shadow: 0 0 12px variables.$secondary-color
+
+    100% 
+        opacity: 1
+        transform: translateY(0)
+        box-shadow: 0 0 20px variables.$secondary-color

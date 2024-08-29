@@ -3,7 +3,7 @@ import './popup.sass'
 
 export default function Popup({popupInfo, setShowPopup}){
     const [popupTitle, setpopupTitle] = useState('')
-    const [popupMessage, setPopupMessage] = useState('')
+    const [popupMessage, setPopupMessage] = useState([])
 
     function closePopup(){
         setShowPopup(false)
@@ -20,7 +20,7 @@ export default function Popup({popupInfo, setShowPopup}){
     return (
         <div className='container-popup'>
             <h2>{popupTitle}</h2>
-            <p>{popupMessage}</p>
+            {popupMessage.map(popupMsg => <p>{popupMsg}</p>)}
 
             <button className='btn close-popup' onClick={closePopup}>Ok</button>
         </div>

@@ -3,6 +3,7 @@
 @use '../../assets/sass/_buttons'
 
 #contact
+    position: relative
     @include utilities.center-elements
     flex-direction: column
     margin-bottom: 100px
@@ -36,11 +37,18 @@
                     color: variables.$secondary-color
                     font-size: 1.8rem
 
-                input
+                .name-input, .email-input
                     width: 100%
                     height: 35px
                     padding-left: 10px
                     @include utilities.form-elements-style
+
+                    &.error 
+                        border-color: variables.$error-state-border-color
+                        background-color: variables.$error-state-bg-color
+                        
+                        &::placeholder
+                            color: variables.$error-state-text-color
 
         &-lower
             width: 100%
@@ -53,7 +61,13 @@
                 margin-bottom: 5px
                 color: variables.$secondary-color
 
-            textarea
+            .message-input
                 @include utilities.form-elements-style
                 padding: 15px
                 min-height: 135px
+
+                &.error 
+                    background-color: variables.$error-state-bg-color
+                    border-color: variables.$error-state-border-color
+                    &::placeholder
+                            color: variables.$error-state-text-color

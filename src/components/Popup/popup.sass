@@ -6,7 +6,7 @@
     z-index: 99
     position: absolute
     width: 50%
-    height: 150px
+    top: -80%
     left: 50%
     margin-left: -25%
     border-radius: 16px
@@ -14,10 +14,26 @@
     display: flex
     align-items: center
     flex-direction: column
-    padding: 10px 0
+    padding: 15px
 
-    p 
+    box-shadow: 0 0 20px variables.$secondary-color
+
+    @include utilities.animation(popup-animation , .5s, 1, ease-in-out)
+
+    h2 
+        font-size: 1.8rem
+        margin-top: 10px
+        text-align: center
+
+    p
         font-weight: 400
         font-size: 1.4rem
-        margin: 20px 0 15px 0
+        margin-bottom: 15px
+        text-align: center
+
+        &:first-of-type
+            margin-top: 20px 
+
+        &:last-of-type
+            margin-bottom: 20px
 
