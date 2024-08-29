@@ -12,10 +12,6 @@ export default function Contact() {
     const [showPopup , setShowPopup] = useState(false)
     const [popupInfo, setPopupInfo] = useState({})
 
-    // TODO
-    // Melhorar a verificação dos campos.
-    // Criar alertas personalizados.
-
     function sendEmail(e){
         e.preventDefault()
         if(!name){
