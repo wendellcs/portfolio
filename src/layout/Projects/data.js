@@ -14,42 +14,42 @@ import toDoListImage from '../../assets/images/toDoList-big.png'
 export const projectsData = [{
     name: 'Blogr Landing Page',
     image: blogrProjectImage,
-    liveSiteUrl: '',
+    liveSiteUrl: 'https://wendellcs.github.io/blog-landing-page/',
     gitHubUrl: 'https://github.com/wendellcs/blog-landing-page',
     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'Filmaria',
     image: filmariaImage,
-    liveSiteUrl: '',
+    liveSiteUrl: 'https://filmaria-nu.vercel.app',
     gitHubUrl: 'https://github.com/wendellcs/filmaria',
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'Hangman',
     image: hangmanImage,
-    liveSiteUrl: '',
+    liveSiteUrl: 'https://wendellcs.github.io/hangman/',
     gitHubUrl: 'https://github.com/wendellcs/hangman',
     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript, FaSass]
 },
 {
     name: 'Intro Section',
     image: introSectionImage,
-    liveSiteUrl: '',
+    liveSiteUrl: 'https://wendellcs.github.io/Projects/intro-section-with-dropdown-navigation/',
     gitHubUrl: 'https://github.com/wendellcs/Projects/tree/main/intro-section-with-dropdown-navigation',
     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
     name: 'Sistema de chamados',
     image: sistemaChamadosImage,
-    liveSiteUrl: '',
+    liveSiteUrl: 'https://sistema-de-chamados-orcin.vercel.app',
     gitHubUrl: 'https://github.com/wendellcs/sistema-de-chamados',
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
-    name: 'To Do List',
+    name: 'ReactJs To Do List',
     image: toDoListImage,
-    liveSiteUrl: '',
+    liveSiteUrl: 'https://todo-list-mauve-mu.vercel.app',
     gitHubUrl: 'https://github.com/wendellcs/todo-list',
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
 }]
