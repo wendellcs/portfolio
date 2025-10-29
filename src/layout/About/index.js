@@ -1,5 +1,5 @@
 import { TiDocumentText } from "react-icons/ti";
-import cv from '../../assets/doc/CV_WendellCSilva.pdf'
+import cv from '../../assets/doc/CV-Wendell_C_Silva.docx.pdf'
 
 import './about.sass'
 export default function About() {
@@ -7,7 +7,7 @@ export default function About() {
         <section id='about'>
             <h1 className='about-title'>Wendell de Carvalho Silva</h1>
             <h2 className='about-subtitle'>
-                Desenvolvedor Front-end
+                Desenvolvedor Full-stack
             </h2>
 
             <p className='about-text'>
@@ -15,24 +15,19 @@ export default function About() {
                 tanto o nível quanto a qualidade dos meus projetos.
             </p>
             <p className='about-text'>
-                Meu primeiro contato com
-                <span className='span-highlight'> desenvolvimento web </span>foi há cerca de 1 ano e 8 meses foi quando
-                eu tive um grande interesse pela criação de páginas web. Desde então, tenho
-                buscado conhecimento na área e atualmente estou cursando
-                <span className='span-highlight'> Ciência da Computação </span> e
-                desenvolvendo diversos projetos para aprimorar minhas habilidades.
+                Interessado em <span className='span-highlight'>desenvolvimento web</span>, com experiência em 
+                <span className='span-highlight'> front-end</span> e <span className='span-highlight'>back-end</span>. 
+                Atualmente curso <span className='span-highlight'>Ciência da Computação</span> e desenvolvo projetos 
+                full-stack para aprimorar minhas habilidades e criar aplicações eficientes e intuitivas.
             </p>
 
             <div className='about-cta'>
                 <p className='about-cta-text'>Clique aqui para ver meu CV</p>
 
-
                 <a className='btn cta' download='CV-WendellCSilva.pdf' href={cv} type='application/pdf'>
                     <TiDocumentText className='icon static' />
                 </a>
-
             </div>
-
         </section>
     )
 }
