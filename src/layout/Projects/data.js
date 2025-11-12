@@ -1,6 +1,7 @@
 // Icons
 import { FaHtml5, FaCss3Alt, FaReact, FaSass } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
+import { RiNodejsLine } from "react-icons/ri";
 
 // Images
 import blogrProjectImage from '../../assets/images/blogr-project-big.png'
@@ -9,6 +10,7 @@ import hangmanImage from '../../assets/images/hangman-big.png'
 import introSectionImage from '../../assets/images/introSection-big.png'
 import sistemaChamadosImage from '../../assets/images/sistemaChamados-big.png'
 import toDoListImage from '../../assets/images/toDoList-big.png'
+import chatbotImage from '../../assets/images/chatbot-big.png'
 
 // Projects database
 export const projectsData = [{
@@ -52,4 +54,11 @@ export const projectsData = [{
     liveSiteUrl: 'https://todo-list-mauve-mu.vercel.app',
     gitHubUrl: 'https://github.com/wendellcs/todo-list',
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
+},
+{
+    name: 'Chatbot',
+    image: chatbotImage,
+    liveSiteUrl: 'https://chatbot-eight-pink-46.vercel.app',
+    gitHubUrl: 'https://github.com/wendellcs/chatbot-openai',
+    techs: [FaReact, FaSass, RiNodejsLine, IoLogoJavascript]
 }]

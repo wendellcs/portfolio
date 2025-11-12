@@ -12,7 +12,7 @@ export default function Profile() {
                 <img className='profile-image' src={profilePic} alt='Wendell C Silva'/>
             </div>
             <div className='profile-text'>
-                <p>Olá, meu nome é Wendell e sou <span className='span-highlight'>Desenvolvedor Front-end.</span></p>
+                <p>Olá, meu nome é Wendell e sou <span className='span-highlight'>Desenvolvedor Full-stack.</span></p>
             </div>
 
             <div className="profile-icons">

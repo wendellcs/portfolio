@@ -8,6 +8,7 @@ import hangmanImageSmall from '../../assets/images/hangman-small.png'
 import introSectionImageSmall from '../../assets/images/introSection-small.png'
 import sistemaChamadosImageSmall from '../../assets/images/sistemaChamados-small.png'
 import toDoListImageSmall from '../../assets/images/toDoList-small.png'
+import chatboxImageSmall from '../../assets/images/chatbot-small.png'
 
 import './carousel.sass'
 export default function Carousel({ updateState }) {
@@ -17,7 +18,7 @@ export default function Carousel({ updateState }) {
     const [active, setActive] = useState(3)
     const [centeredElement, setCenteredElement] = useState(null)
 
-    const items = [blogrProjectImageSmall, filmariaImageSmall, hangmanImageSmall, introSectionImageSmall, sistemaChamadosImageSmall, toDoListImageSmall]
+    const items = [blogrProjectImageSmall, filmariaImageSmall, hangmanImageSmall, introSectionImageSmall, sistemaChamadosImageSmall, toDoListImageSmall, chatboxImageSmall]
 
     useEffect(() => {
         function loadShow() {
