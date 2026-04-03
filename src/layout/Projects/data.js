@@ -1,5 +1,7 @@
 // Icons
-import { FaHtml5, FaCss3Alt, FaReact, FaSass } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaSass, FaPython } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import { SiFastapi } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiNodejsLine } from "react-icons/ri";
 
@@ -7,7 +9,7 @@ import { RiNodejsLine } from "react-icons/ri";
 import blogrProjectImage from '../../assets/images/blogr-project-big.png'
 import filmariaImage from '../../assets/images/filmaria-big.png'
 import hangmanImage from '../../assets/images/hangman-big.png'
-import introSectionImage from '../../assets/images/introSection-big.png'
+import comprafacilby from '../../assets/images/compra-facilby-big.png'
 import sistemaChamadosImage from '../../assets/images/sistemaChamados-big.png'
 import toDoListImage from '../../assets/images/toDoList-big.png'
 import chatbotImage from '../../assets/images/chatbot-big.png'
@@ -28,19 +30,26 @@ export const projectsData = [{
     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
 },
 {
+    name: 'Compra Fácil By',
+    image: comprafacilby,
+    liveSiteUrl: 'https://www.comprafacilby.com.br',
+    gitHubUrl: 'https://github.com/wendellcs/virtual-store',
+    techs: [FaReact, FaSass , IoLogoJavascript, FaPython, SiFastapi, DiMongodb]
+},
+{
     name: 'Hangman',
     image: hangmanImage,
     liveSiteUrl: 'https://wendellcs.github.io/hangman/',
     gitHubUrl: 'https://github.com/wendellcs/hangman',
     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript, FaSass]
 },
-{
-    name: 'Intro Section',
-    image: introSectionImage,
-    liveSiteUrl: 'https://wendellcs.github.io/Projects/intro-section-with-dropdown-navigation/',
-    gitHubUrl: 'https://github.com/wendellcs/Projects/tree/main/intro-section-with-dropdown-navigation',
-    techs: [FaHtml5, FaCss3Alt, IoLogoJavascript]
-},
+// {
+//     name: 'Intro Section',
+//     image: introSectionImage,
+//     liveSiteUrl: 'https://wendellcs.github.io/Projects/intro-section-with-dropdown-navigation/',
+//     gitHubUrl: 'https://github.com/wendellcs/Projects/tree/main/intro-section-with-dropdown-navigation',
+//     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript]
+// },
 {
     name: 'Sistema de chamados',
     image: sistemaChamadosImage,

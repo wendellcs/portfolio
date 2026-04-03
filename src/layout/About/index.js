@@ -1,5 +1,5 @@
 import { TiDocumentText } from "react-icons/ti";
-import cv from '../../assets/doc/CV-Wendell_C_Silva.docx.pdf'
+import cv from '../../assets/doc/Wendell_Silva_Frontend_Developer_CV.docx'
 
 import './about.sass'
 export default function About() {
@@ -24,7 +24,7 @@ export default function About() {
             <div className='about-cta'>
                 <p className='about-cta-text'>Clique aqui para ver meu CV</p>
 
-                <a className='btn cta' download='CV-WendellCSilva.pdf' href={cv} type='application/pdf'>
+                <a className="btn cta" download='Wendell_Silva_Frontend_Developer_CV.docx' href={cv} type='application/vnd.openxmlformats-officedocument.wordprocessingml.document'>
                     <TiDocumentText className='icon static' />
                 </a>
             </div>

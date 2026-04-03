@@ -5,7 +5,7 @@ import { IoArrowBackCircle, IoArrowForwardCircle } from "react-icons/io5";
 import blogrProjectImageSmall from '../../assets/images/blogr-project-small.png'
 import filmariaImageSmall from '../../assets/images/filmaria-small.png'
 import hangmanImageSmall from '../../assets/images/hangman-small.png'
-import introSectionImageSmall from '../../assets/images/introSection-small.png'
+import comprafacilbyImageSmall from '../../assets/images/compra-facilby-small.png'
 import sistemaChamadosImageSmall from '../../assets/images/sistemaChamados-small.png'
 import toDoListImageSmall from '../../assets/images/toDoList-small.png'
 import chatboxImageSmall from '../../assets/images/chatbot-small.png'
@@ -18,7 +18,7 @@ export default function Carousel({ updateState }) {
     const [active, setActive] = useState(3)
     const [centeredElement, setCenteredElement] = useState(null)
 
-    const items = [blogrProjectImageSmall, filmariaImageSmall, hangmanImageSmall, introSectionImageSmall, sistemaChamadosImageSmall, toDoListImageSmall, chatboxImageSmall]
+    const items = [blogrProjectImageSmall, filmariaImageSmall,comprafacilbyImageSmall, hangmanImageSmall, sistemaChamadosImageSmall, toDoListImageSmall, chatboxImageSmall]
 
     useEffect(() => {
         function loadShow() {
