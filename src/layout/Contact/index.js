@@ -40,7 +40,7 @@ export default function Contact() {
             hasError = true
         } 
 
-        const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
+        const regex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g
         if(!regex.test(email)){
             errorMessage.push('Esse endereço de email não é válido.')
             setEmailError(true)
