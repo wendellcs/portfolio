@@ -12,7 +12,7 @@ export default function Header() {
     return (
         <header className="fixed top-0 inset-x-0 z-50 transition-all duration-300 ">
             <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-                <a href="#top" className="font-mono text-sm tracking-tight">
+                <a href="#top" className="font-mono text-sm">
                     <span className="text-primary">&lt;</span>
                     <span className="font-bold text-transparent bg-clip-text bg-gradient-text animate-gradient-text bg-[length:200%_auto]">wendell</span>
                     <span className="text-primary"> /&gt;</span>

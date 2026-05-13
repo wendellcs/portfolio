@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+@layer components {
+    .text-shadow-cyan {
+        text-shadow: 0 0 20px  oklch(0.82 0.16 195 / 0.4);
+    }   
+}
