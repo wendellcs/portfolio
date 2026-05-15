@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@layer components{
+    .badge {
+        @apply bg-foreground-transparent flex justify-center items-center px-3 py-[6px] border border-primary shadow-glow-cyan-soft
+    }
+
+    .badge p {
+        @apply font-mono text-white flex items-center gap-2.5 text-sm 
+    }
+}
