@@ -2,7 +2,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { GrDocumentText } from "react-icons/gr";
 import { BsStars } from "react-icons/bs";
 import { SiDevbox } from "react-icons/si";
-import { Github, Linkedin } from "../Icons";
+
+import { Github, Linkedin, Mail } from "../Icons";
 
 import exampleAvatar from '../../assets/images/avatar.jpg'
 
@@ -33,9 +34,10 @@ export default function Banner() {
                         <button className="flex items-center gap-2 rounded-lg px-6 py-3.5 font-semibold text-foreground hover:"><GrDocumentText className="text-lg" /> Currículo</button>
                     </div>
 
-                    <div className="flex gap-4">
-                        <Github size={'24'}/>
-                        <Linkedin size={'24'}/>
+                    <div className="flex">
+                        <Github size= {'20'}/>
+                        <Linkedin size= {'20'}/>
+                        <Mail size= {'20'}/>
                     </div>
                 </div>
 
