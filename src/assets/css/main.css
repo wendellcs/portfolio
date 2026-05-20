@@ -40,7 +40,7 @@
         --font-jetmono: 'Jetbrains Mono', sans-serif;
 
         /* Glows */
-        --shadow-glow-cyan: 0 0 50px oklch(0.82 0.16 195 / 0.8);
+        --shadow-glow-cyan: 0 0 50px oklch(0.82 0.16 195 / 1);
 
         --shadow-glow-cyan-soft: 0 0 40px oklch(0.82 0.16 195 / 0.5);
 
@@ -53,9 +53,10 @@
 
         --animate-bg-blink-t: blink .8s linear infinite;
 
-        --animate-bounce-vertical: bounce-vertical 8s infinite;
-        
+        --animate-bounce-vertical: bounce-vertical 7s infinite;
+
         @keyframes gradient-move {
+
                 0%,
                 100% {
                         background-position: 0% 50%;
@@ -68,16 +69,12 @@
 
         @keyframes bounce-vertical {
                 0%,
-                100%{
-                        transform: translateY(0)
-                } 
-                
-                25% {
-                        transform: translateY(-20px)
+                100% {
+                        transform: translateY(0px);
                 }
-                
-                75% {
-                        transform: translateY(20px)
+
+                50% {
+                        transform: translateY(-15px);
                 }
         }
 
