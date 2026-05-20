@@ -2,6 +2,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { GrDocumentText } from "react-icons/gr";
 import { BsStars } from "react-icons/bs";
 import { SiDevbox } from "react-icons/si";
+import { Github, Linkedin } from "../Icons";
 
 import exampleAvatar from '../../assets/images/avatar.jpg'
 
@@ -17,10 +18,10 @@ export default function Banner() {
             <div className="relative max-w-6xl mx-auto px-6 mt-40 grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <div className="badge w-[230px] rounded-full">
-                        <p><div className="w-2 h-2 bg-teal-400 animate-bg-blink rounded-full"></div> Disponível para projetos</p>
+                        <p><span className="w-2 h-2 bg-teal-400 animate-bg-blink rounded-full"></span> Disponível para projetos</p>
                     </div>
 
-                    <h1 className="text-foreground text-[72px] font-bold leading-[120%] my-10 relative title-decoration">Olá, sou <br/><span className="text-shadow-cyan text-transparent bg-clip-text bg-gradient-text animate-gradient-text bg-[length:200%_auto]">Wendell</span></h1>
+                    <h1 className="text-foreground text-[72px] font-bold leading-[120%] my-10 relative title-decoration">Olá, sou <br /><span className="text-shadow-cyan text-transparent bg-clip-text bg-gradient-text animate-gradient-text bg-[length:200%_auto]">Wendell</span></h1>
 
                     <p className="text-xl text-muted-foreground max-w-md">
                         <span className="text-foreground font-semibold">Desenvolvedor Full-stack </span>
@@ -28,19 +29,20 @@ export default function Banner() {
                     </p>
 
                     <div className="flex gap-5 my-10">
-                        <button className="flex items-center gap-2 bg-gradient-primary px-6 py-3.5 rounded-lg font-semibold shadow-glow-cyan">Ver projetos <FaArrowRightLong className="text-lg"/></button>
-                        <button className="flex items-center gap-2 rounded-lg px-6 py-3.5 font-semibold text-foreground hover:"><GrDocumentText className="text-lg"/> Currículo</button>
+                        <button className="flex items-center gap-2 bg-gradient-primary px-6 py-3.5 rounded-lg font-semibold shadow-glow-cyan">Ver projetos <FaArrowRightLong className="text-lg" /></button>
+                        <button className="flex items-center gap-2 rounded-lg px-6 py-3.5 font-semibold text-foreground hover:"><GrDocumentText className="text-lg" /> Currículo</button>
+                    </div>
+
+                    <div className="flex gap-4">
+                        <Github size={'24'}/>
+                        <Linkedin size={'24'}/>
                     </div>
                 </div>
 
                 <div className="relative animate-bounce-vertical">
-                    <div className="badge w-[80px] shadow-glow-cyan-soft bg-dark absolute left-[-20px] top-[-18px] rounded-full"><BsStars className="text-[#2dd4bf] mr-2"/> <p>v2.0</p></div>
-                    <img src={exampleAvatar} alt="Minha foto" className="max-w-[600px] w-full rounded-2xl shadow-glow-cyan"/>
-                    <div className="badge bg-dark w-[170px] shadow-glow-cyan-soft rounded-xl ml-auto absolute right-[-20px] bottom-[-18px]"><span className="flex items-center gap-2.5 text-[#2dd4bf]"><SiDevbox/> $</span><p className="ml-2">npm run dev</p></div>
-                </div>
-
-                <div>
-                    
+                    <div className="badge w-[80px] shadow-glow-cyan-soft bg-dark absolute left-[-20px] top-[-18px] rounded-full"><BsStars className="text-[#2dd4bf] mr-2" /> <p>v2.0</p></div>
+                    <img src={exampleAvatar} alt="Minha foto" className="max-w-[600px] w-full rounded-2xl shadow-glow-cyan" />
+                    <div className="badge bg-dark w-[170px] shadow-glow-cyan-soft rounded-xl ml-auto absolute right-[-20px] bottom-[-18px]"><span className="flex items-center gap-2.5 text-[#2dd4bf]"><SiDevbox /> $</span><p className="ml-2">npm run dev</p></div>
                 </div>
             </div>
         </section>

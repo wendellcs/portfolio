@@ -1,14 +1,9 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import clsx from "clsx"
 import { Github, Linkedin } from "../Icons"
 
 export default function Header() {
     const [activeLink, setActiveLink] = useState<string>('about')
-
-    useEffect(() => {
-        console.log(activeLink)
-        return () => { }
-    }, [activeLink])
 
     return (
         <header className="fixed top-0 inset-x-0 z-50 transition-all duration-300 ">
@@ -43,8 +38,8 @@ export default function Header() {
                 </div>
 
                 <div className="hidden md:flex items-center gap-3">
-                    <Github/>
-                    <Linkedin/>
+                    <Github size={"18"}/>
+                    <Linkedin size={"18"}/>
                 </div>
             </nav>
         </header>
