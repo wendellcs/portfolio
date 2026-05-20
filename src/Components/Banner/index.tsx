@@ -1,7 +1,8 @@
-import { FaArrowRightLong } from "react-icons/fa6";
+import { FaArrowRightLong, FaArrowDown } from "react-icons/fa6";
 import { GrDocumentText } from "react-icons/gr";
 import { BsStars } from "react-icons/bs";
 import { SiDevbox } from "react-icons/si";
+import { IoLocationOutline } from "react-icons/io5";
 
 import { Github, Linkedin, Mail } from "../Icons";
 
@@ -9,7 +10,7 @@ import exampleAvatar from '../../assets/images/avatar.jpg'
 
 export default function Banner() {
     return (
-        <section id="top" className="relative flex min-h-screen overflow-hidden bg-[radial-gradient(ellipse_at_top,oklch(0.22_0.05_220),oklch(0.13_0.02_240))]">
+        <section id="top" className="relative flex min-h-screen overflow-hidden bg-[radial-gradient(ellipse_at_top,oklch(0.22_0.05_220),oklch(0.13_0.02_240))] pb-20">
             <div className="absolute inset-0 opacity-40 [background-image:linear-gradient(oklch(0.82_0.16_195/0.06)_1px,transparent_1px),linear-gradient(90deg,oklch(0.82_0.16_195/0.06)_1px,transparent_1px)] [background-size:50px_50px]" />
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,oklch(0.13_0.02_240)_85%)]" />
             <div className="absolute top-1/3 -left-40 size-[500px] rounded-full bg-primary/20 blur-[120px] animate-pulse-glow" />
@@ -34,10 +35,16 @@ export default function Banner() {
                         <button className="flex items-center gap-2 rounded-lg px-6 py-3.5 font-semibold text-foreground hover:"><GrDocumentText className="text-lg" /> Currículo</button>
                     </div>
 
-                    <div className="flex">
-                        <Github size= {'20'}/>
-                        <Linkedin size= {'20'}/>
-                        <Mail size= {'20'}/>
+                    <div className="flex items-center">
+                        <div className="flex">
+                            <Github size= {'18'}/>
+                            <Linkedin size= {'18'}/>
+                            <Mail size= {'18'}/>
+                        </div>
+                        <IoLocationOutline className="text-muted-foreground ml-8"/>
+                        <span className="text-muted-foreground ml-1.5 text-sm">
+                            Brasil
+                        </span>
                     </div>
                 </div>
 
@@ -46,6 +53,8 @@ export default function Banner() {
                     <img src={exampleAvatar} alt="Minha foto" className="max-w-[600px] w-full rounded-2xl shadow-glow-cyan" />
                     <div className="badge bg-dark w-[170px] shadow-glow-cyan-soft rounded-xl ml-auto absolute right-[-20px] bottom-[-18px]"><span className="flex items-center gap-2.5 text-[#2dd4bf]"><SiDevbox /> $</span><p className="ml-2">npm run dev</p></div>
                 </div>
+
+                <FaArrowDown className="absolute bottom-0 left-[50%] translate-x-[-50%] text-2xl text-muted-foreground animate-bounce [animation-duration:1.5s] "/>
             </div>
         </section>
     )
