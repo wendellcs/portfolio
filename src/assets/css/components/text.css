@@ -2,6 +2,11 @@
 
 @layer components {
     .text-shadow-cyan {
-        text-shadow: 0 0 20px  oklch(0.82 0.16 195 / 0.4);
+        text-shadow: 0 0 40px  oklch(0.82 0.16 195);
     }   
+
+    .title-decoration::after{
+        content: '';
+        @apply h-18 w-[3px] bg-primary absolute bottom-4.5 left-[53%] animate-bg-blink-t
+    }
 }

@@ -49,7 +49,9 @@
         /* Animations */
         --animate-gradient-text: gradient-move 6s ease infinite;
 
-        --animate-bg-blink: blink 1.2s ease infinite;
+        --animate-bg-blink: pulse 1.2s ease infinite;
+
+        --animate-bg-blink-t: blink .8s linear infinite;
 
         --animate-bounce-vertical: bounce-vertical 8s infinite;
         
@@ -79,7 +81,7 @@
                 }
         }
 
-        @keyframes blink {
+        @keyframes pulse {
 
                 0%,
                 100% {
@@ -88,6 +90,18 @@
 
                 50% {
                         background-color: #115e59;
+                }
+        }
+
+        @keyframes blink {
+
+                0%,
+                100% {
+                        opacity: 1;
+                }
+
+                50% {
+                        opacity: 0;
                 }
         }
 }
