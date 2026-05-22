@@ -9,4 +9,13 @@
         content: '';
         @apply h-18 w-[3px] bg-primary absolute bottom-4.5 left-[53%] animate-bg-blink-t
     }
+
+    .tech-text {
+        @apply relative
+    }
+
+    .tech-text::after{
+        content: '';
+        @apply w-1 bg-gradient-primary h-14 absolute rotate-20 right-[-50px] top-[50%] translate-y-[-50%]
+    }
 }
