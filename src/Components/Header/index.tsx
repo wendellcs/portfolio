@@ -10,7 +10,7 @@ export default function Header() {
             <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
                 <a href="#top" className="font-mono text-sm">
                     <span className="text-primary">&lt;</span>
-                    <span className="font-bold text-transparent bg-clip-text bg-gradient-text animate-gradient-text bg-[length:200%_auto]">wendell</span>
+                    <span className="font-bold text-transparent bg-clip-text bg-gradient-text animate-gradient-text bg-size[200%_auto]">wendell</span>
                     <span className="text-primary"> /&gt;</span>
                 </a>
                 <div className="flex items-center gap-1">

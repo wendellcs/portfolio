@@ -11,19 +11,19 @@ import exampleAvatar from '../../assets/images/avatar.jpg'
 export default function Banner() {
     return (
         <section id="top" className="relative flex min-h-screen overflow-hidden bg-[radial-gradient(ellipse_at_top,oklch(0.22_0.05_220),oklch(0.13_0.02_240))] pb-20">
-            <div className="absolute inset-0 opacity-40 [background-image:linear-gradient(oklch(0.82_0.16_195/0.06)_1px,transparent_1px),linear-gradient(90deg,oklch(0.82_0.16_195/0.06)_1px,transparent_1px)] [background-size:50px_50px]" />
+            <div className="absolute inset-0 opacity-40 bg-[linear-gradient(oklch(0.82_0.16_195/0.06)_1px,transparent_1px),linear-gradient(90deg,oklch(0.82_0.16_195/0.06)_1px,transparent_1px)]" />
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,oklch(0.13_0.02_240)_85%)]" />
-            <div className="absolute top-1/3 -left-40 size-[500px] rounded-full bg-primary/20 blur-[120px] animate-pulse-glow" />
-            <div className="absolute bottom-10 -right-40 size-[500px] rounded-full bg-secondary/20 blur-[120px]" />
-            <div className="absolute top-10 right-1/3 size-[300px] rounded-full bg-primary/10 blur-[100px]" />
+            <div className="absolute top-1/3 -left-40 size-125 rounded-full bg-primary/20 blur-[120px] animate-pulse-glow" />
+            <div className="absolute bottom-10 -right-40 size-125 rounded-full bg-secondary/20 blur-[120px]" />
+            <div className="absolute top-10 right-1/3 size-75 rounded-full bg-primary/10 blur-[100px]" />
 
             <div className="relative max-w-6xl mx-auto px-6 mt-40 grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <div className="badge w-[230px] rounded-full">
+                    <div className="badge w-57.5 rounded-full">
                         <p><span className="w-2 h-2 bg-teal-400 animate-bg-blink rounded-full"></span> Disponível para projetos</p>
                     </div>
 
-                    <h1 className="text-foreground text-[72px] font-bold leading-[120%] my-10 relative title-decoration">Olá, sou <br /><span className="text-shadow-cyan text-transparent bg-clip-text bg-gradient-text animate-gradient-text bg-[length:200%_auto]">Wendell</span></h1>
+                    <h1 className="text-foreground text-[72px] font-bold leading-[120%] my-10 relative title-decoration">Olá, sou <br /><span className="text-shadow-cyan text-transparent bg-clip-text bg-gradient-text animate-gradient-text bg-size[200%_auto]">Wendell</span></h1>
 
                     <p className="text-xl text-muted-foreground max-w-md">
                         <span className="text-foreground font-semibold">Desenvolvedor Full-stack </span>
@@ -49,9 +49,9 @@ export default function Banner() {
                 </div>
 
                 <div className="relative animate-bounce-vertical">
-                    <div className="badge w-[80px] shadow-glow-cyan-soft bg-dark absolute left-[-20px] top-[-18px] rounded-full"><BsStars className="text-[#2dd4bf] mr-2" /> <p>v2.0</p></div>
-                    <img src={exampleAvatar} alt="Minha foto" className="max-w-[600px] w-full rounded-2xl shadow-glow-cyan" />
-                    <div className="badge bg-dark w-[170px] shadow-glow-cyan-soft rounded-xl ml-auto absolute right-[-20px] bottom-[-18px]"><span className="flex items-center gap-2.5 text-[#2dd4bf]"><SiDevbox /> $</span><p className="ml-2">npm run dev</p></div>
+                    <div className="badge w-20 shadow-glow-cyan-soft bg-dark absolute -left-5 -top-4.5 rounded-full"><BsStars className="text-[#2dd4bf] mr-2" /> <p>v2.0</p></div>
+                    <img src={exampleAvatar} alt="Minha foto" className="max-w-150 w-full rounded-2xl shadow-glow-cyan" />
+                    <div className="badge bg-dark w-42.5 shadow-glow-cyan-soft rounded-xl ml-auto absolute -right-5 -bottom-4.5"><span className="flex items-center gap-2.5 text-[#2dd4bf]"><SiDevbox /> $</span><p className="ml-2">npm run dev</p></div>
                 </div>
 
                 <FaArrowDown className="absolute bottom-0 left-[50%] translate-x-[-50%] text-2xl text-muted-foreground animate-bounce [animation-duration:1.5s] "/>

@@ -7,7 +7,7 @@
 
     .title-decoration::after{
         content: '';
-        @apply h-18 w-[3px] bg-primary absolute bottom-4.5 left-[53%] animate-bg-blink-t
+        @apply h-18 w-0.75 bg-primary absolute bottom-4.5 left-[53%] animate-bg-blink-t
     }
 
     .tech-text {
