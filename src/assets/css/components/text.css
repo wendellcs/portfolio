@@ -16,6 +16,6 @@
 
     .tech-text::after{
         content: '';
-        @apply w-1 bg-gradient-primary h-14 absolute rotate-20 right-[-50px] top-[50%] translate-y-[-50%]
+        @apply w-1 bg-gradient-primary h-14 absolute rotate-20 -right-12.5 top-[50%] translate-y-[-50%]
     }
 }
