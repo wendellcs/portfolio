@@ -4,7 +4,7 @@ import Header from './components/Header'
 import About from './layout/About'
 import Profile from './layout/Profile'
 import Skills from './layout/Skills'
-import Contact from './layout/Contact'
+// import Contact from './layout/Contact'
 import Projects from './layout/Projects'
 import Footer from './components/Footer'
 

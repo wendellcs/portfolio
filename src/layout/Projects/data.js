@@ -3,16 +3,16 @@ import { FaHtml5, FaCss3Alt, FaReact, FaSass, FaPython } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { SiFastapi } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
-import { RiNodejsLine } from "react-icons/ri";
+// import { RiNodejsLine } from "react-icons/ri";
 
 // Images
 import blogrProjectImage from '../../assets/images/blogr-project-big.png'
 import filmariaImage from '../../assets/images/filmaria-big.png'
 import hangmanImage from '../../assets/images/hangman-big.png'
 import comprafacilby from '../../assets/images/compra-facilby-big.png'
-import sistemaChamadosImage from '../../assets/images/sistemaChamados-big.png'
-import toDoListImage from '../../assets/images/toDoList-big.png'
-import chatbotImage from '../../assets/images/chatbot-big.png'
+// import sistemaChamadosImage from '../../assets/images/sistemaChamados-big.png'
+// import toDoListImage from '../../assets/images/toDoList-big.png'
+// import chatbotImage from '../../assets/images/chatbot-big.png'
 
 // Projects database
 export const projectsData = [{
