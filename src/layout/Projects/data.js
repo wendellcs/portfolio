@@ -50,24 +50,25 @@ export const projectsData = [{
 //     gitHubUrl: 'https://github.com/wendellcs/Projects/tree/main/intro-section-with-dropdown-navigation',
 //     techs: [FaHtml5, FaCss3Alt, IoLogoJavascript]
 // },
-{
-    name: 'Sistema de chamados',
-    image: sistemaChamadosImage,
-    liveSiteUrl: 'https://sistema-de-chamados-orcin.vercel.app',
-    gitHubUrl: 'https://github.com/wendellcs/sistema-de-chamados',
-    techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
-},
-{
-    name: 'ReactJs To Do List',
-    image: toDoListImage,
-    liveSiteUrl: 'https://todo-list-mauve-mu.vercel.app',
-    gitHubUrl: 'https://github.com/wendellcs/todo-list',
-    techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
-},
-{
-    name: 'Chatbot',
-    image: chatbotImage,
-    liveSiteUrl: 'https://chatbot-eight-pink-46.vercel.app',
-    gitHubUrl: 'https://github.com/wendellcs/chatbot-openai',
-    techs: [FaReact, FaSass, RiNodejsLine, IoLogoJavascript]
-}]
+// {
+//     name: 'Sistema de chamados',
+//     image: sistemaChamadosImage,
+//     liveSiteUrl: 'https://sistema-de-chamados-orcin.vercel.app',
+//     gitHubUrl: 'https://github.com/wendellcs/sistema-de-chamados',
+//     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
+// },
+// {
+//     name: 'ReactJs To Do List',
+//     image: toDoListImage,
+//     liveSiteUrl: 'https://todo-list-mauve-mu.vercel.app',
+//     gitHubUrl: 'https://github.com/wendellcs/todo-list',
+//     techs: [FaReact, FaHtml5, FaCss3Alt, IoLogoJavascript]
+// },
+// {
+//     name: 'Chatbot',
+//     image: chatbotImage,
+//     liveSiteUrl: 'https://chatbot-eight-pink-46.vercel.app',
+//     gitHubUrl: 'https://github.com/wendellcs/chatbot-openai',
+//     techs: [FaReact, FaSass, RiNodejsLine, IoLogoJavascript]
+// }
+]

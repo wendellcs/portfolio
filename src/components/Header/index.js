@@ -10,7 +10,6 @@ export default function Header() {
         setOpenedMenu(!openedMenu)
     }
 
-
     return (
 
         <header className={openedMenu ? 'container-header active' : 'container-header'}>
@@ -28,7 +27,6 @@ export default function Header() {
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#contact">Contato</a></li>
                 </ul>
 
 

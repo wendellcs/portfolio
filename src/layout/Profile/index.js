@@ -26,6 +26,7 @@ export default function Profile() {
                     <TiDocumentText className='icon' />
                 </a>
             </div>
+            <a href="mailto:wendellcs131@gmail.com" className="email">wendellcs131@gmail.com</a>
         </section>
     )
 }

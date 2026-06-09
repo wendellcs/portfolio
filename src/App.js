@@ -33,8 +33,8 @@ function App() {
       <Skills />
       <Line />
       <Projects />
-      <Line />
-      <Contact />
+      {/* <Line /> */} 
+      {/* <Contact /> - Not working properly */}
       <Footer />
     </main>
   );

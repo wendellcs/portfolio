@@ -18,7 +18,7 @@ export default function Carousel({ updateState }) {
     const [active, setActive] = useState(3)
     const [centeredElement, setCenteredElement] = useState(null)
 
-    const items = [blogrProjectImageSmall, filmariaImageSmall,comprafacilbyImageSmall, hangmanImageSmall, sistemaChamadosImageSmall, toDoListImageSmall, chatboxImageSmall]
+    const items = [blogrProjectImageSmall, filmariaImageSmall,comprafacilbyImageSmall, hangmanImageSmall]
 
     useEffect(() => {
         function loadShow() {
