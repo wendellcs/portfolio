@@ -1,7 +1,7 @@
 
 export const About = () => {
     return (
-        <section className="max-w-3xl mx-auto text-center animate-fade-up my-15">
+        <section className="max-w-3xl mx-auto text-center animate-fade-up mt-40">
             <h3 className="text-primary mb-5">// sobre mim</h3>
 
             <h2 className="font-bold text-white text-5xl">

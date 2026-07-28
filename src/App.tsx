@@ -3,6 +3,7 @@ import './assets/css/main.css'
 import Banner from "./Components/Banner"
 import { Carousel } from "./Components/Carousel"
 import { About } from "./Components/About"
+import { Skills } from "./Components/Skills"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner/>
       <Carousel/>
       <About/>
+      <Skills/>
     </main>
   )
 }
