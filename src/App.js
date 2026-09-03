@@ -7,6 +7,7 @@ import Skills from './layout/Skills'
 // import Contact from './layout/Contact'
 import Projects from './layout/Projects'
 import Footer from './components/Footer'
+import Achievements from './layout/Achievements';
 
 import './assets/sass/_reset.sass'
 import './app.sass'
@@ -29,6 +30,8 @@ function App() {
       <Profile />
       <Line />
       <About />
+      <Line />
+      <Achievements />
       <Line />
       <Skills />
       <Line />

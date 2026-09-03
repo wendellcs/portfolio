@@ -1,0 +1,47 @@
+@use '../../assets/sass/_variables'
+@use '../../assets/sass/_utilities'
+
+#achievements 
+    position: relative
+    @include utilities.center-elements
+    flex-direction: column
+    text-align: center
+
+    .achievements-title
+        color: variables.$secondary-color
+        margin-bottom: 45px
+
+    h3 
+        color: variables.$secondary-color
+        margin-bottom: 20px
+
+        &:last-of-type
+            margin-top: 40px
+
+    p 
+        max-width: 600px
+        text-align: center
+        margin: 20px 0
+        font-size: 1.6rem
+
+    a 
+        color: variables.$secondary-color
+        border: 1px solid variables.$secondary-color
+        padding: 5px 10px 
+        border-radius: 4px
+        font-size: 1.6rem
+        transition: .3s
+
+        &:hover
+            color: variables.$primary-color
+            border-color: variables.$primary-color
+            transform: translateY(-3px)
+
+    div 
+        display: flex 
+        gap: 20px
+
+    .tema 
+        margin: 0 0 30px 0
+
+
