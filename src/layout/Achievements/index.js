@@ -14,8 +14,8 @@ export default function Achievements() {
             </p>
 
             <div>
-                <a href='https://wendellcs.github.io/hackathon-ctrlyoung/' target='_blank' rel="noopener">Live site</a>
-                <a href='https://github.com/wendellcs/hackathon-ctrlyoung' target='_blank' rel="noopener">Github</a>
+                <a href='https://wendellcs.github.io/hackathon-ctrlyoung/' target='_blank' rel="noreferrer noopener">Live site</a>
+                <a href='https://github.com/wendellcs/hackathon-ctrlyoung' target='_blank' rel="noreferrer noopener">Github</a>
             </div>
 
             <h3>🏆 Hackathon Nacional Ctrl+Play 2026</h3>
@@ -27,8 +27,8 @@ export default function Achievements() {
             </p>
 
             <div>
-                <a href='https://olvsophi.github.io/Hackathon/index.html' target='_blank' rel="noopener">Live site</a>
-                <a href='https://github.com/olvsophi/Hackathon' target='_blank' rel="noopener">Github</a>
+                <a href='https://olvsophi.github.io/Hackathon/index.html' target='_blank' rel="noreferrer noopener">Live site</a>
+                <a href='https://github.com/olvsophi/Hackathon' target='_blank' rel="noreferrer noopener">Github</a>
             </div>
 
         </section>
