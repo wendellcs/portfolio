@@ -29,7 +29,8 @@
 
         &-frontEnd
             &-techs
-                @include utilities.center-elements
+                display: grid 
+                grid-template-columns: 1fr 1fr 1fr
                 gap: 10px
                 max-width: 120px
                 flex-wrap: wrap
@@ -42,5 +43,8 @@
 
         &-tools
             &-tool
-                @include utilities.center-elements
+                display: grid 
+                grid-template-columns: 1fr 1fr 1fr
+                max-width: 120px
+                margin: 0 auto
                 gap: 10px

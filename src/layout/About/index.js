@@ -1,5 +1,5 @@
 import { TiDocumentText } from "react-icons/ti";
-import cv from '../../assets/doc/Wendell_Silva_Frontend_Developer_CV.docx'
+import cv from '../../assets/doc/wendell_carvalho_silva-frontend_developer_pt_br.pdf'
 
 import './about.sass'
 export default function About() {
@@ -7,7 +7,7 @@ export default function About() {
         <section id='about'>
             <h1 className='about-title'>Wendell de Carvalho Silva</h1>
             <h2 className='about-subtitle'>
-                Desenvolvedor Full-stack
+                Desenvolvedor Full-stack com foco em Frontend
             </h2>
 
             <p className='about-text'>
@@ -17,8 +17,8 @@ export default function About() {
             <p className='about-text'>
                 Interessado em <span className='span-highlight'>desenvolvimento web</span>, com experiência em 
                 <span className='span-highlight'> front-end</span> e <span className='span-highlight'>back-end</span>. 
-                Atualmente curso <span className='span-highlight'>Ciência da Computação</span> e desenvolvo projetos 
-                full-stack para aprimorar minhas habilidades e criar aplicações eficientes e intuitivas.
+                Formado em <span className='span-highlight'>Ciência da Computação</span>, desenvolvo projetos 
+                full-stack para aprimorar minhas habilidades, criando aplicações eficientes e intuitivas.
             </p>
 
             <div className='about-cta'>

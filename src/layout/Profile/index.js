@@ -1,7 +1,7 @@
 import { RiGithubFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
 import { TiDocumentText } from "react-icons/ti";
-import cv from '../../assets/doc/Wendell_Silva_Frontend_Developer_CV.docx'
+import cv from '../../assets/doc/wendell_carvalho_silva-frontend_developer_pt_br.pdf'
 
 import './profile.sass'
 import profilePic from '../../assets/images/profile.jpeg'

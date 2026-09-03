@@ -1,6 +1,7 @@
 import { RiGithubFill } from "react-icons/ri";
 import { FaHtml5, FaCss3Alt, FaReact, FaSass, FaFigma, FaGitAlt, FaPython } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
+import { SiTypescript, SiMongodb, SiFastapi } from "react-icons/si";
+import { RiTailwindCssFill, RiSupabaseFill  } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 
 import './skills.sass'
@@ -12,15 +13,18 @@ export default function Skills() {
             <div className='skills-container'>
                 <div className='skills-container-frontEnd'>
                     <h3 className='skills-box-title'>
-                        Linguagens
+                        Techs
                     </h3>
 
                     <div className='skills-container-frontEnd-techs'>
+                        <FaReact className='icon react' />
+                        <IoLogoJavascript className='icon javascript' />
+                        <SiTypescript className="icon typescript"/>
+                        <FaPython className='icon python' />
+                        <SiFastapi className='icon fastapi' />
                         <FaHtml5 className='icon html' />
                         <FaCss3Alt className='icon css' />
-                        <IoLogoJavascript className='icon javascript' />
-                        <FaPython className='icon python' />
-                        <FaReact className='icon react' />
+                        <RiTailwindCssFill className='icon tailwind' />
                         <FaSass className='icon sass' />
                     </div>
                 </div>
@@ -46,6 +50,7 @@ export default function Skills() {
                         <FaGitAlt className='icon git' />
                         <FaFigma className='icon figma' />
                         <SiMongodb className='icon mongo'/>
+                        <RiSupabaseFill className='icon supabase'/>
                     </div>
                 </div>
             </div>
